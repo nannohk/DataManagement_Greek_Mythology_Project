@@ -15,4 +15,6 @@ sed -n '/BOOK I/,/BOOK I./p' story.txt > Story.txt
 
 echo "Cleaning up the directory."
 rm story.txt
+
+awk -f nameExtraction Story.txt
 echo "Exiting"
