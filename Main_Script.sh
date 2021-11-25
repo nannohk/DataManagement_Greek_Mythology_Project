@@ -17,6 +17,6 @@ echo "Cleaning up the directory."
 rm story.txt
 touch names.txt
 
-awk 'match($0, / [A-Z]+[a-z][a-z][a-z]+ /) {printf substr($0,RSTART,RLENGTH)"\n" > "names.txt"} ' Story.txt
+awk 'match($0, / [A-Z][a-z][a-z][a-z]+ /) {printf substr($0,RSTART,RLENGTH)"\n" > "names.txt"} ' Story.txt
 
 echo "Exiting"
