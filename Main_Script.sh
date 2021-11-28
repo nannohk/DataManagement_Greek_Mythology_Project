@@ -48,13 +48,15 @@ echo "Setting up Mongo insert commands"
 for filename in ${fileNames[@]};
 do 
     #Obtain the lines with the particular name
-    grep -n ${filename} $masterDirectory/story.txt | awk 'BEGIN {FS = OFS = ":"} {print $1}'
+    grep -n ${filename} $masterDirectory/story.txt | awk 'BEGIN {FS = OFS = ":"} {printf db.GreekCharacters.insert({\"lines\":\"$1\"}) >> ${filename}}'
     echo "----------------------"
     
     #Add list of lines with the particular name
 
     #Append instructions to files
-    echo "db.GreekCharacters.insert({\"name\":\"$filename\",\"lines\":\"listOfLines\"})" >> $filename;
+    #echo "db.GreekCharacters.insert({\"name\":\"$filename\",\"lines\":\"listOfLines\"})" >> $filename;
+    echo "db.GreekCharacters.insert({\"name\":\"$filename\"})" >> $filename;
+
 done
 
 # echo "Creating greek character database"
