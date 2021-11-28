@@ -13,6 +13,7 @@ echo "Text download completed in output file story.txt yaay"
 echo "Extracting story from Story.txt."
 sed -n '/BOOK I/,/BOOK I./p' story.txt > Story.txt 
 
+masterDirectory=$PWD
 
 mkdir namesFolder
 cp Story.txt namesFolder/
@@ -28,36 +29,51 @@ rm story.txt
 rm Story.txt
 
 # Remove  64 non name words
-rm After Alone Away Banded Bear Beginning Bitter Come Does Earth Earthborn Even Fair First From Grant   
+rm After Alone Away Banded Bear Beginning Bitter Come Does Earth Earthborn Even Fair First From Grant Wandering  
 rm  Meantime  More Moreover Most Mount Never Next Night Perish Likewise Long Love Loves These Nevertheless
 rm Quickly Quivering Sacred Shining Speak Still Such Surely Them Thus Then Thence With Straightway King
 rm There Therefore Thereupon This Thou Twelve What When Wherefore Whether Whither Will Wilt Would Zone Poor Here
 
+# Master array of character names 
+declare -a fileNames
+for name in *;
+do 
+    fileNames=("${fileNames[@]}" "$name");
+done
+
+#echo "${fileNames[@]}"
+declare -a lineNumbers
 
 echo "Setting up Mongo insert commands"
-for filename in *;
+for filename in ${fileNames[@]};
 do 
     #Obtain the lines with the particular name
+    grep -n ${filename} $masterDirectory/story.txt | awk 'BEGIN {FS = OFS = ":"} {print $1}'
+    echo "----------------------"
+    
     #Add list of lines with the particular name
 
     #Append instructions to files
     echo "db.GreekCharacters.insert({\"name\":\"$filename\",\"lines\":\"listOfLines\"})" >> $filename;
 done
 
-echo "Creating greek character database"
-mongo GreekCharacters
+# echo "Creating greek character database"
+# mongo GreekCharacters
 
-echo "Running Insert commands"
-chmod +x *
+# echo "Running Insert commands"
+# chmod +x *
+# for file in *;
+# do 
+#     ./$file
+# done
 
-for file in *;
-do 
-    ./$file
-done
-
+#--------------------------------------------
 # echo "Creating final nameList containing all names for the Database"
 # ls >> nameList.txt
 
 # echo "Insert names from nameList file"
 # ./insertNames.sh
+#---------------------------------------------
+cd $masterDirectory
+rm -r namesFolder
 echo "Exiting"
