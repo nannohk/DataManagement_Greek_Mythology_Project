@@ -63,6 +63,6 @@ rm Story.txt
 rm -r namesFolder
 
 # echo "Creating greek character database"
-# mongo GreekCharacters
+ mongo GreekCharacters < characters.js
 
 echo "Exiting"
