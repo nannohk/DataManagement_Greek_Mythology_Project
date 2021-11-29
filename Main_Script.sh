@@ -48,7 +48,7 @@ do
     # echo "db.GreekCharacters.insert({\"name\":\"$filename\",\"lines\":[$(cat temp)\"9999\"]})" >> $filename;
     #------------------------------------------------------------------------------------------------------------
 
-    echo "db.GreekCharacters.insert({\"name\":\"$filename\",\"lines\":[$(cat temp)\"9999\"]})" >> characters.js;
+    echo "db.GreekCharacters.insert({\"name\":\"$filename\",\"lines\":[$(cat temp)\"9999\"]})" >> characters.js
     rm temp
 done
 
