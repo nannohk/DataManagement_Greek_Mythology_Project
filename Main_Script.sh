@@ -48,14 +48,14 @@ echo "Setting up Mongo insert commands"
 for filename in ${fileNames[@]};
 do 
     #Obtain the lines with the particular name
-    grep -n ${filename} $masterDirectory/story.txt | awk 'BEGIN {FS = OFS = ":"} {printf db.GreekCharacters.insert({\"lines\":\"$1\"}) >> ${filename}}'
+    grep -n ${filename} $masterDirectory/story.txt | awk -v "name=$filename" ' BEGIN { FS = OFS = ":"} {printf("db.GreekCharacters.insert({\"lines\":"$1"})\n") > $name}'
     echo "----------------------"
     
     #Add list of lines with the particular name
 
     #Append instructions to files
     #echo "db.GreekCharacters.insert({\"name\":\"$filename\",\"lines\":\"listOfLines\"})" >> $filename;
-    echo "db.GreekCharacters.insert({\"name\":\"$filename\"})" >> $filename;
+   # echo "db.GreekCharacters.insert({\"name\":\"$filename\"})" >> $filename;
 
 done
 
@@ -77,5 +77,5 @@ done
 # ./insertNames.sh
 #---------------------------------------------
 cd $masterDirectory
-rm -r namesFolder
+#rm -r namesFolder
 echo "Exiting"
