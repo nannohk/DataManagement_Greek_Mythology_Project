@@ -1,0 +1,6 @@
+db.GreekCharacters.insert({"lines":1269})
+db.GreekCharacters.insert({"lines":2333})
+db.GreekCharacters.insert({"lines":3500})
+db.GreekCharacters.insert({"lines":3508})
+db.GreekCharacters.insert({"lines":5250})
+db.GreekCharacters.insert({"name":"Ampycus"})

@@ -1,0 +1,7 @@
+db.GreekCharacters.insert({"lines":2095})
+db.GreekCharacters.insert({"lines":2482})
+db.GreekCharacters.insert({"lines":2908})
+db.GreekCharacters.insert({"lines":3635})
+db.GreekCharacters.insert({"lines":3655})
+db.GreekCharacters.insert({"lines":4159})
+db.GreekCharacters.insert({"name":"Orchomenus"})

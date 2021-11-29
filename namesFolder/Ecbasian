@@ -1,0 +1,2 @@
+db.GreekCharacters.insert({"lines":1152})
+db.GreekCharacters.insert({"name":"Ecbasian"})

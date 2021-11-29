@@ -1,0 +1,2 @@
+db.GreekCharacters.insert({"lines":470})
+db.GreekCharacters.insert({"name":"Panachaean"})

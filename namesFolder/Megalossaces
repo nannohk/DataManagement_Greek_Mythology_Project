@@ -1,0 +1,2 @@
+db.GreekCharacters.insert({"lines":1219})
+db.GreekCharacters.insert({"name":"Megalossaces"})

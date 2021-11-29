@@ -1,0 +1,3 @@
+db.GreekCharacters.insert({"lines":1202})
+db.GreekCharacters.insert({"lines":1274})
+db.GreekCharacters.insert({"name":"Macrian"})

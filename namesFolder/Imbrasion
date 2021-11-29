@@ -1,0 +1,2 @@
+db.GreekCharacters.insert({"lines":415})
+db.GreekCharacters.insert({"name":"Imbrasion"})

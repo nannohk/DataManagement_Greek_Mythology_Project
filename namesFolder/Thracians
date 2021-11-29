@@ -1,0 +1,8 @@
+db.GreekCharacters.insert({"lines":832})
+db.GreekCharacters.insert({"lines":836})
+db.GreekCharacters.insert({"lines":1001})
+db.GreekCharacters.insert({"lines":1115})
+db.GreekCharacters.insert({"lines":1715})
+db.GreekCharacters.insert({"lines":4184})
+db.GreekCharacters.insert({"lines":4213})
+db.GreekCharacters.insert({"name":"Thracians"})

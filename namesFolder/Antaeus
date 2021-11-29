@@ -1,0 +1,3 @@
+db.GreekCharacters.insert({"lines":392})
+db.GreekCharacters.insert({"lines":747})
+db.GreekCharacters.insert({"name":"Antaeus"})

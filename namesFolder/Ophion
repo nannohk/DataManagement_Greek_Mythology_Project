@@ -1,0 +1,2 @@
+db.GreekCharacters.insert({"lines":721})
+db.GreekCharacters.insert({"name":"Ophion"})

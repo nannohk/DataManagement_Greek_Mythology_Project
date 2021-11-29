@@ -1,0 +1,7 @@
+db.GreekCharacters.insert({"lines":346})
+db.GreekCharacters.insert({"lines":369})
+db.GreekCharacters.insert({"lines":2263})
+db.GreekCharacters.insert({"lines":2524})
+db.GreekCharacters.insert({"lines":3208})
+db.GreekCharacters.insert({"lines":4038})
+db.GreekCharacters.insert({"name":"Aeolid"})

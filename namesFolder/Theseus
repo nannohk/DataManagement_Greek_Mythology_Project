@@ -1,0 +1,5 @@
+db.GreekCharacters.insert({"lines":326})
+db.GreekCharacters.insert({"lines":3571})
+db.GreekCharacters.insert({"lines":3658})
+db.GreekCharacters.insert({"lines":4315})
+db.GreekCharacters.insert({"name":"Theseus"})

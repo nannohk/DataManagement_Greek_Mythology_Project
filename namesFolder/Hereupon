@@ -1,0 +1,8 @@
+db.GreekCharacters.insert({"lines":1333})
+db.GreekCharacters.insert({"lines":1396})
+db.GreekCharacters.insert({"lines":1538})
+db.GreekCharacters.insert({"lines":1575})
+db.GreekCharacters.insert({"lines":1657})
+db.GreekCharacters.insert({"lines":4074})
+db.GreekCharacters.insert({"lines":4751})
+db.GreekCharacters.insert({"name":"Hereupon"})

@@ -1,0 +1,8 @@
+db.GreekCharacters.insert({"lines":807})
+db.GreekCharacters.insert({"lines":811})
+db.GreekCharacters.insert({"lines":1046})
+db.GreekCharacters.insert({"lines":1062})
+db.GreekCharacters.insert({"lines":1066})
+db.GreekCharacters.insert({"lines":3751})
+db.GreekCharacters.insert({"lines":5482})
+db.GreekCharacters.insert({"name":"Lemnos"})

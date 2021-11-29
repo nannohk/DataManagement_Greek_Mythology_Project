@@ -1,0 +1,8 @@
+db.GreekCharacters.insert({"lines":365})
+db.GreekCharacters.insert({"lines":654})
+db.GreekCharacters.insert({"lines":669})
+db.GreekCharacters.insert({"lines":691})
+db.GreekCharacters.insert({"lines":2234})
+db.GreekCharacters.insert({"lines":2248})
+db.GreekCharacters.insert({"lines":2263})
+db.GreekCharacters.insert({"name":"Idmon"})

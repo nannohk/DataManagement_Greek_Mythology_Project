@@ -1,0 +1,3 @@
+db.GreekCharacters.insert({"lines":2888})
+db.GreekCharacters.insert({"lines":2912})
+db.GreekCharacters.insert({"name":"Eidyia"})

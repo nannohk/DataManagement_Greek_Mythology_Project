@@ -1,0 +1,4 @@
+db.GreekCharacters.insert({"lines":726})
+db.GreekCharacters.insert({"lines":1288})
+db.GreekCharacters.insert({"lines":1899})
+db.GreekCharacters.insert({"name":"Dictaean"})

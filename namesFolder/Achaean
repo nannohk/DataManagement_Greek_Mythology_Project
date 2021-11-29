@@ -1,0 +1,8 @@
+db.GreekCharacters.insert({"lines":404})
+db.GreekCharacters.insert({"lines":510})
+db.GreekCharacters.insert({"lines":3221})
+db.GreekCharacters.insert({"lines":3256})
+db.GreekCharacters.insert({"lines":3386})
+db.GreekCharacters.insert({"lines":3645})
+db.GreekCharacters.insert({"lines":5171})
+db.GreekCharacters.insert({"name":"Achaean"})

@@ -1,0 +1,5 @@
+db.GreekCharacters.insert({"lines":189})
+db.GreekCharacters.insert({"lines":2778})
+db.GreekCharacters.insert({"lines":2783})
+db.GreekCharacters.insert({"lines":2918})
+db.GreekCharacters.insert({"name":"Eros"})

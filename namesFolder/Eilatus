@@ -1,0 +1,6 @@
+db.GreekCharacters.insert({"lines":265})
+db.GreekCharacters.insert({"lines":1386})
+db.GreekCharacters.insert({"lines":1392})
+db.GreekCharacters.insert({"lines":1486})
+db.GreekCharacters.insert({"lines":5220})
+db.GreekCharacters.insert({"name":"Eilatus"})
