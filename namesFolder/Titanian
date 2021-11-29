@@ -1,4 +1,0 @@
-db.GreekCharacters.insert({"lines":3457})
-db.GreekCharacters.insert({"lines":3977})
-db.GreekCharacters.insert({"lines":4049})
-db.GreekCharacters.insert({"name":"Titanian"})

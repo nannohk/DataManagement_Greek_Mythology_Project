@@ -1,2 +1,0 @@
-db.GreekCharacters.insert({"lines":465})
-db.GreekCharacters.insert({"name":"Magnesian"})

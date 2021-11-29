@@ -1,6 +1,0 @@
-db.GreekCharacters.insert({"lines":265})
-db.GreekCharacters.insert({"lines":1385})
-db.GreekCharacters.insert({"lines":1461})
-db.GreekCharacters.insert({"lines":1486})
-db.GreekCharacters.insert({"lines":5220})
-db.GreekCharacters.insert({"name":"Polyphemus"})

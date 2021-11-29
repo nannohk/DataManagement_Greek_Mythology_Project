@@ -1,8 +1,0 @@
-db.GreekCharacters.insert({"lines":536})
-db.GreekCharacters.insert({"lines":779})
-db.GreekCharacters.insert({"lines":1372})
-db.GreekCharacters.insert({"lines":3385})
-db.GreekCharacters.insert({"lines":4221})
-db.GreekCharacters.insert({"lines":4335})
-db.GreekCharacters.insert({"lines":4349})
-db.GreekCharacters.insert({"name":"Artemis"})

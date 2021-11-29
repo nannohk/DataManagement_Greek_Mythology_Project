@@ -1,4 +1,0 @@
-db.GreekCharacters.insert({"lines":1128})
-db.GreekCharacters.insert({"lines":1294})
-db.GreekCharacters.insert({"lines":2208})
-db.GreekCharacters.insert({"name":"Phrygian"})

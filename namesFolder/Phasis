@@ -1,7 +1,0 @@
-db.GreekCharacters.insert({"lines":1865})
-db.GreekCharacters.insert({"lines":2636})
-db.GreekCharacters.insert({"lines":2654})
-db.GreekCharacters.insert({"lines":2724})
-db.GreekCharacters.insert({"lines":3763})
-db.GreekCharacters.insert({"lines":4051})
-db.GreekCharacters.insert({"name":"Phasis"})

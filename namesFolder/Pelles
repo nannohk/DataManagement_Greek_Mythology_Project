@@ -1,2 +1,0 @@
-db.GreekCharacters.insert({"lines":404})
-db.GreekCharacters.insert({"name":"Pelles"})

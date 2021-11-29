@@ -1,8 +1,0 @@
-db.GreekCharacters.insert({"lines":1136})
-db.GreekCharacters.insert({"lines":1140})
-db.GreekCharacters.insert({"lines":1148})
-db.GreekCharacters.insert({"lines":1198})
-db.GreekCharacters.insert({"lines":1201})
-db.GreekCharacters.insert({"lines":1207})
-db.GreekCharacters.insert({"lines":1238})
-db.GreekCharacters.insert({"name":"Doliones"})
